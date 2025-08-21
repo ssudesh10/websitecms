@@ -1,0 +1,2441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Cache Status Comment (only visible in HTML source) -->
+        <!-- Page generated: 2025-08-19 06:23:33 | Cache: ENABLED | Status: FRESH | Expiry: 3600s -->
+    
+    <title>Your Website - Professional Business Solutions</title>
+<meta name="description" content="Transform your business with our innovative solutions. Professional services designed to help your business grow and succeed.">
+<meta name="keywords" content="business, solutions, professional, services">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="http://localhost/cmsfortestpwreset/">
+<meta property="og:title" content="Your Website - Professional Business Solutions">
+<meta property="og:description" content="Transform your business with our innovative solutions. Professional services designed to help your business grow and succeed.">
+<meta property="og:url" content="http://localhost/cmsfortestpwreset/">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Your Website - Professional Business Solutions">
+<meta name="twitter:description" content="Transform your business with our innovative solutions. Professional services designed to help your business grow and succeed.">
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Your Website - Professional Business Solutions",
+    "description": "Transform your business with our innovative solutions. Professional services designed to help your business grow and succeed.",
+    "url": "http://localhost/cmsfortestpwreset/",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Your Website CMS",
+        "url": "http://localhost/cmsfortestpwreset/",
+        "description": "Creating amazing digital experiences for businesses worldwide. We build modern, responsive websites that drive results."
+    },
+    "datePublished": "2025-07-30 10:01:13",
+    "dateModified": "2025-07-30 10:01:13",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost/cmsfortestpwreset/"
+    },
+    "isPartOf": {
+        "@type": "WebSite",
+        "name": "Your Website CMS",
+        "url": "http://localhost/cmsfortestpwreset/"
+    }
+}</script>
+    
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+      <link href="http://localhost/cmsfortestpwreset/public/css/style.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <!--  Display favicon if enabled and URL exists -->
+        <style>
+        /* Your existing styles stay the same */
+        .navbar { z-index: 1000 !important; }
+        .mobile-menu-overlay { z-index: 999 !important; }
+        .desktop-dropdown { z-index: 998 !important; }
+        .admin-edit-btn { z-index: 40 !important; }
+        .slider-controls { z-index: 30 !important; }
+        .license-banner { z-index: 1001 !important; } /* Higher than navbar */
+        .license-status { z-index: 1002 !important; } /* Higher than banner */
+        
+        body.menu-open { overflow: hidden; }
+        .transition-all { transition: all 0.3s ease; }
+        section { position: relative; z-index: 1; }
+        .admin-edit-btn { position: relative; z-index: 40; }
+        
+        .dropdown-menu {
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+        }
+        
+        .dropdown:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .dropdown-arrow { transition: transform 0.3s ease; }
+        .dropdown:hover .dropdown-arrow { transform: rotate(180deg); }
+        
+        @media (max-width: 1023px) {
+            .desktop-dropdown { display: none !important; }
+        }
+        .max-w-6xl2{  
+            max-width: 80rem;
+        }
+        
+        /* Cache Debug Indicator Styles */
+        .cache-indicator {
+            position: fixed;
+            bottom: 10px;
+            left: 10px;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 5px 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-family: monospace;
+            z-index: 9999;
+            display: none;
+        }
+        
+        .cache-enabled {
+            background: rgba(34, 197, 94, 0.9) !important;
+        }
+        
+        .cache-disabled {
+            background: rgba(239, 68, 68, 0.9) !important;
+        }
+        
+        /* License Banner Styles - Very Top of Page */
+        .license-banner {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1001 !important;
+            animation: slideInDown 0.5s ease-out;
+            padding: 12px 20px;
+            text-align: center;
+            font-weight: 600;
+            font-size: 16px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        @keyframes slideInDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        .banner-suspended {
+            background: linear-gradient(90deg, #dc2626, #b91c1c);
+            color: white;
+        }
+        
+        .banner-expired {
+            background: linear-gradient(90deg, #ea580c, #c2410c);
+            color: white;
+        }
+        
+        .banner-invalid {
+            background: linear-gradient(90deg, #7c2d12, #92400e);
+            color: white;
+        }
+        
+        .banner-unknown {
+            background: linear-gradient(90deg, #374151, #4b5563);
+            color: white;
+        }
+        
+        /* Adjust body top margin when banner is shown */
+        body.has-license-banner {
+            margin-top: 60px;
+        }
+
+        /* When navbar is hidden due to license issues, adjust top margin */
+        body.navbar-hidden {
+            margin-top: 60px; /* Only banner height, no navbar space */
+        }
+        
+        body.navbar-hidden.has-license-banner {
+            margin-top: 60px; /* Only banner height */
+        }
+
+        /* License Status Output Styles */
+        .license-status {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 8px 12px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 12px;
+            position: fixed;
+            top: 70px; /* Below banner if it exists */
+            right: 10px;
+            border: 1px solid #333;
+        }
+        
+        .license-status.good {
+            background: rgba(34, 197, 94, 0.9);
+            border-color: #22c55e;
+        }
+        
+        .license-status.error {
+            background: rgba(239, 68, 68, 0.9);
+            border-color: #ef4444;
+        }
+
+        /* License restriction message styles */
+        .license-restriction-message {
+            min-height: calc(100vh - 60px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+
+        .restriction-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            padding: 40px;
+            text-align: center;
+            max-width: 500px;
+            margin: 20px;
+        }
+
+        .restriction-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+
+        .restriction-icon.suspended {
+            color: #dc2626;
+        }
+
+        .restriction-icon.invalid {
+            color: #7c2d12;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 has-license-banner navbar-hidden">
+    
+    <!-- Cache Debug Indicator (only shows with ?cache_debug=1 for admins) -->
+    <div class="cache-indicator cache-enabled">
+        Cache: ON | Generated: 06:23:33 | Expiry: 3600s
+    </div>
+
+    <!-- License Status Banner - Shows for all license issues -->
+                    <div class="license-banner banner-invalid">
+            <div class="max-w-7xl mx-auto flex items-center justify-center space-x-3 flex-wrap">
+                <div class="flex items-center space-x-3">
+                    <i class="fas fa-times-circle text-lg"></i>
+                    <span>Invalid License - Please check your license key</span>
+                </div>
+                
+                                    <span class="text-sm">
+                        <a href="http://localhost/cmsfortestpwreset/admin/settings.php#license" 
+                           class="inline-flex items-center px-3 py-1 bg-opacity-10 rounded-full text-white hover:bg-opacity-20 transition-all duration-200 font-medium">
+                            <i class="fas fa-cog mr-1"></i>
+                            Fix License
+                        </a>
+                    </span>
+                            </div>
+        </div>
+        
+    <!-- Navigation with Clean URLs - Only show if license allows navbar -->
+    
+    <!-- Page Content -->
+    <main>
+        <div class="relative group"><div class="absolute top-4 right-4 z-40 opacity-80 hover:opacity-100 transition-opacity duration-200"><a href="http://localhost/cmsfortestpwreset/admin/edit-section.php?id=1" class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 transition duration-200 pointer-events-auto shadow-md admin-edit-btn" style="background-color: #3b82f6;"><i class="fas fa-edit mr-1"></i>Edit</a></div>    
+    <section id="hero-section-68a3fc45d4c1b" class="hero-section  py-20 relative min-h-[600px] flex items-center overflow-hidden transition-all duration-500" 
+             style="background-color: #7c3aed;">
+        
+        <!-- Enhanced Background Overlay for Images -->
+                    <!-- Standard Pattern Overlay for Solid/Gradient -->
+            <div class="absolute inset-0 opacity-10 pointer-events-none">
+                <div style="background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0); background-size: 20px 20px; width: 100%; height: 100%;"></div>
+            </div>
+                
+        <!-- Content Container -->
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 w-full">
+            <!-- Title -->
+            <h1 class="hero-title text-4xl md:text-6xl font-bold mb-6 transition-colors duration-300 " 
+                style="color: #000000;">
+                Welcome to Our Websites            </h1>
+            
+            <!-- Subtitle -->
+                            <p class="hero-subtitle text-xl md:text-2xl mb-4 opacity-90 transition-colors duration-300 " 
+                   style="color: #000000;">
+                    Transform your business with innovative solutions                </p>
+                        
+            <!-- Content -->
+            <p class="hero-content text-lg md:text-xl mb-8 opacity-80 transition-colors duration-300  max-w-3xl mx-auto" 
+               style="color: #000000;">
+                We provide cutting-edge solutions that help businesses grow and succeed in today&#039;s competitive market. Join thousands of satisfied customers worldwide.            </p>
+            
+            <!-- CTA Buttons -->
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <!-- Primary Button -->
+                                    <button class="inline-block px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl hero-primary-button group relative overflow-hidden "
+                            style="background-color: #ffffff; color: #3b82f6;">
+                        <!-- Button shine effect -->
+                        <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-500 transform -skew-x-12 -translate-x-full group-hover:translate-x-full"></span>
+                        <span class="relative z-10">Get Started</span>
+                    </button>
+                                
+                <!-- Secondary Button -->
+                                    <!-- Default secondary button -->
+                    <button class="border-2 px-8 py-3 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hero-secondary-button group relative overflow-hidden "
+                            style="border-color: #000000; color: #000000; background-color: transparent;"
+                            onmouseover="this.style.backgroundColor='#000000'; this.style.color='#7c3aed';"
+                            onmouseout="this.style.backgroundColor='transparent'; this.style.color='#000000';">
+                        <!-- Button shine effect -->
+                        <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-500 transform -skew-x-12 -translate-x-full group-hover:translate-x-full"></span>
+                        <span class="relative z-10">Learn More</span>
+                    </button>
+                            </div>
+        </div>
+        
+        <!-- Scroll indicator (optional) -->
+            </section>
+    
+    <!-- Preload background image for better performance -->
+        
+    <!-- SCOPED CSS - Only affects this Hero section with iOS fixes -->
+    <style>
+        /* iOS-specific fixes */
+        #hero-section-68a3fc45d4c1b {
+                    }
+        
+        /* iOS Safari specific fixes */
+        @supports (-webkit-touch-callout: none) {
+            #hero-section-68a3fc45d4c1b {
+                background-attachment: scroll !important;
+                -webkit-background-size: cover !important;
+            }
+        }
+        
+        /* Scope all styles to the specific Hero section */
+        #hero-section-68a3fc45d4c1b .hero-primary-button {
+            position: relative;
+            background-image: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            background-size: 200% 100%;
+            background-position: 200% 0;
+            transition: all 0.3s ease;
+        }
+        
+        #hero-section-68a3fc45d4c1b .hero-primary-button:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            background-position: -200% 0;
+        }
+        
+        #hero-section-68a3fc45d4c1b .hero-primary-button:active {
+            transform: translateY(0) scale(1.02);
+            transition: transform 0.1s ease;
+        }
+        
+        /* Secondary Button Animations */
+        #hero-section-68a3fc45d4c1b .hero-secondary-button {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        #hero-section-68a3fc45d4c1b .hero-secondary-button:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        #hero-section-68a3fc45d4c1b .hero-secondary-button:active {
+            transform: translateY(0) scale(1.02);
+            transition: transform 0.1s ease;
+        }
+        
+        /* Enhanced shadow effects for image backgrounds - SCOPED */
+                
+        /* Pulse animation for Hero section */
+        @keyframes heroPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+        
+        #hero-section-68a3fc45d4c1b .hero-primary-button:hover {
+            animation: heroPulse 2s infinite;
+        }
+        
+        /* Responsive adjustments - SCOPED */
+        @media (max-width: 768px) {
+            #hero-section-68a3fc45d4c1b .hero-primary-button,
+            #hero-section-68a3fc45d4c1b .hero-secondary-button {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            
+            /* Adjust text sizes on mobile - SCOPED */
+            #hero-section-68a3fc45d4c1b .hero-title {
+                font-size: 2.5rem !important;
+            }
+            
+            #hero-section-68a3fc45d4c1b .hero-subtitle,
+            #hero-section-68a3fc45d4c1b .hero-content {
+                font-size: 1rem !important;
+            }
+        }
+        
+        /* Gradient animation for gradient backgrounds - SCOPED */
+                
+        /* Dark mode adjustments - SCOPED */
+        @media (prefers-color-scheme: dark) {
+            #hero-section-68a3fc45d4c1b .hero-primary-button,
+            #hero-section-68a3fc45d4c1b .hero-secondary-button {
+                box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+            }
+            
+            #hero-section-68a3fc45d4c1b .hero-primary-button:hover,
+            #hero-section-68a3fc45d4c1b .hero-secondary-button:hover {
+                box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+            }
+        }
+        
+        /* Animation for content reveal */
+        #hero-section-68a3fc45d4c1b .animate-fade-in {
+            animation: fadeInUp 1s ease-out;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+    
+    <!-- JavaScript for Enhanced Interactions -->
+    <script>
+        // Enhanced secondary button hover effects
+        function handleHeroSecondaryButtonHover(button, style, sectionTextColor, textColor) {
+            switch(style) {
+                case 'outline':
+                    button.style.backgroundColor = sectionTextColor;
+                    button.style.color = textColor;
+                    button.style.borderColor = sectionTextColor;
+                    break;
+                case 'ghost':
+                    button.style.backgroundColor = sectionTextColor;
+                    button.style.color = textColor;
+                    break;
+                default: // solid
+                    button.style.opacity = '0.9';
+                    button.style.filter = 'brightness(1.1)';
+                    break;
+            }
+        }
+        
+        function handleHeroSecondaryButtonOut(button, style, sectionTextColor, textColor) {
+            switch(style) {
+                case 'outline':
+                    button.style.backgroundColor = 'transparent';
+                    button.style.color = sectionTextColor;
+                    button.style.borderColor = sectionTextColor;
+                    break;
+                case 'ghost':
+                    button.style.backgroundColor = 'transparent';
+                    button.style.color = sectionTextColor;
+                    break;
+                default: // solid
+                    button.style.opacity = '1';
+                    button.style.filter = 'brightness(1)';
+                    break;
+            }
+        }
+        
+        // Add click ripple effect
+        document.addEventListener('DOMContentLoaded', function() {
+            const buttons = document.querySelectorAll('#hero-section-68a3fc45d4c1b .hero-primary-button, #hero-section-68a3fc45d4c1b .hero-secondary-button');
+            
+            buttons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    
+                    ripple.style.cssText = `
+                        position: absolute;
+                        width: ${size}px;
+                        height: ${size}px;
+                        left: ${x}px;
+                        top: ${y}px;
+                        background: rgba(255, 255, 255, 0.3);
+                        border-radius: 50%;
+                        transform: scale(0);
+                        animation: ripple 0.6s ease-out;
+                        pointer-events: none;
+                        z-index: 1;
+                    `;
+                    
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                });
+            });
+        });
+    </script>
+    
+    <!-- Add ripple animation CSS -->
+    <style>
+        @keyframes ripple {
+            to {
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+    </style>
+    
+    </div><div class="relative group"><div class="absolute top-4 right-4 z-40 opacity-80 hover:opacity-100 transition-opacity duration-200"><a href="http://localhost/cmsfortestpwreset/admin/edit-section.php?id=3" class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 transition duration-200 pointer-events-auto shadow-md admin-edit-btn" style="background-color: #3b82f6;"><i class="fas fa-edit mr-1"></i>Edit</a></div>    
+    <!-- Enhanced Stats Section with Animations -->
+    <section id="stats-section-68a3fc45d4f87" class="py-16 relative overflow-hidden" 
+             style="background-color: #f8fafc; color: #000000;">
+        
+        <!-- Background Effects -->
+        <div class="absolute inset-0 opacity-5">
+            <div class="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute bottom-10 right-10 w-48 h-48 bg-white rounded-full blur-3xl"></div>
+            <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-white rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center px-6 py-2 backdrop-blur-lg rounded-full text-sm font-semibold uppercase tracking-wider mb-6 border" 
+                     style="background-color: #00000020; color: #000000; border-color: #00000020;">
+                    <span class="w-2 h-2 bg-indigo-400 rounded-full mr-2 animate-pulse"></span>
+                    Our Stats
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-black mb-2">
+                    Our Impact                </h2>
+                                    <p class="text-lg mt-2 opacity-80 max-w-2xl mx-auto" style="color: #000000;">
+                        Numbers that speak for themselves                    </p>
+                                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-2"></div>
+            </div>
+            
+            <!-- Stats Grid -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+                                    <div class="stats-card text-center group" 
+                         data-index="0"
+                         style="animation-delay: 0ms;">
+                        
+                        <!-- Icon (if available) -->
+                                                
+                        <!-- Animated Number -->
+                        <div class="stat-number text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 relative"
+                             data-target="500+"
+                             data-animation="countup"
+                             style="color: #000000;">
+                            
+                            <!-- Number will be animated via JavaScript -->
+                            <span class="counter-value">0</span>
+                            
+                            <!-- Glow Effect -->
+                            <div class="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-500"
+                                 style="background: linear-gradient(45deg, #00000040, transparent); 
+                                        filter: blur(20px); transform: scale(1.2);"></div>
+                        </div>
+                        
+                        <!-- Label -->
+                        <div class="stat-label text-lg sm:text-xl font-medium opacity-90 group-hover:opacity-100 transition-opacity duration-300">
+                            Happy Clients                        </div>
+                        
+                        <!-- Decorative Line -->
+                        <div class="mx-auto mt-4 h-1 w-12 bg-current opacity-30 group-hover:w-16 group-hover:opacity-60 transition-all duration-300 rounded-full"></div>
+                    </div>
+                                    <div class="stats-card text-center group" 
+                         data-index="1"
+                         style="animation-delay: 150ms;">
+                        
+                        <!-- Icon (if available) -->
+                                                
+                        <!-- Animated Number -->
+                        <div class="stat-number text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 relative"
+                             data-target="1000+"
+                             data-animation="countup"
+                             style="color: #000000;">
+                            
+                            <!-- Number will be animated via JavaScript -->
+                            <span class="counter-value">0</span>
+                            
+                            <!-- Glow Effect -->
+                            <div class="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-500"
+                                 style="background: linear-gradient(45deg, #00000040, transparent); 
+                                        filter: blur(20px); transform: scale(1.2);"></div>
+                        </div>
+                        
+                        <!-- Label -->
+                        <div class="stat-label text-lg sm:text-xl font-medium opacity-90 group-hover:opacity-100 transition-opacity duration-300">
+                            Projects Completed                        </div>
+                        
+                        <!-- Decorative Line -->
+                        <div class="mx-auto mt-4 h-1 w-12 bg-current opacity-30 group-hover:w-16 group-hover:opacity-60 transition-all duration-300 rounded-full"></div>
+                    </div>
+                                    <div class="stats-card text-center group" 
+                         data-index="2"
+                         style="animation-delay: 300ms;">
+                        
+                        <!-- Icon (if available) -->
+                                                
+                        <!-- Animated Number -->
+                        <div class="stat-number text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 relative"
+                             data-target="0"
+                             data-animation="countup"
+                             style="color: #000000;">
+                            
+                            <!-- Number will be animated via JavaScript -->
+                            <span class="counter-value">0</span>
+                            
+                            <!-- Glow Effect -->
+                            <div class="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-500"
+                                 style="background: linear-gradient(45deg, #00000040, transparent); 
+                                        filter: blur(20px); transform: scale(1.2);"></div>
+                        </div>
+                        
+                        <!-- Label -->
+                        <div class="stat-label text-lg sm:text-xl font-medium opacity-90 group-hover:opacity-100 transition-opacity duration-300">
+                            24/7                        </div>
+                        
+                        <!-- Decorative Line -->
+                        <div class="mx-auto mt-4 h-1 w-12 bg-current opacity-30 group-hover:w-16 group-hover:opacity-60 transition-all duration-300 rounded-full"></div>
+                    </div>
+                                    <div class="stats-card text-center group" 
+                         data-index="3"
+                         style="animation-delay: 450ms;">
+                        
+                        <!-- Icon (if available) -->
+                                                
+                        <!-- Animated Number -->
+                        <div class="stat-number text-4xl sm:text-5xl lg:text-6xl font-bold mb-3 relative"
+                             data-target="99%"
+                             data-animation="countup"
+                             style="color: #000000;">
+                            
+                            <!-- Number will be animated via JavaScript -->
+                            <span class="counter-value">0</span>
+                            
+                            <!-- Glow Effect -->
+                            <div class="absolute inset-0 opacity-0 group-hover:opacity-30 transition-opacity duration-500"
+                                 style="background: linear-gradient(45deg, #00000040, transparent); 
+                                        filter: blur(20px); transform: scale(1.2);"></div>
+                        </div>
+                        
+                        <!-- Label -->
+                        <div class="stat-label text-lg sm:text-xl font-medium opacity-90 group-hover:opacity-100 transition-opacity duration-300">
+                            Support Available                        </div>
+                        
+                        <!-- Decorative Line -->
+                        <div class="mx-auto mt-4 h-1 w-12 bg-current opacity-30 group-hover:w-16 group-hover:opacity-60 transition-all duration-300 rounded-full"></div>
+                    </div>
+                            </div>
+            
+            <!-- Additional Visual Elements -->
+            <div class="mt-16 text-center opacity-60">
+                <div class="inline-flex items-center space-x-2 text-sm">
+                    <div class="w-2 h-2 bg-current rounded-full animate-pulse"></div>
+                    <span>Real-time statistics</span>
+                    <div class="w-2 h-2 bg-current rounded-full animate-pulse animation-delay-500"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enhanced CSS Styles -->
+    <style>
+        /* Stats Section Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes countUp {
+            from {
+                opacity: 0;
+                transform: scale(0.8) translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        @keyframes slideInUp {
+            from {
+                opacity: 0;
+                transform: translateY(40px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes bounceIn {
+            0% {
+                opacity: 0;
+                transform: scale(0.3) translateY(50px);
+            }
+            50% {
+                opacity: 1;
+                transform: scale(1.1) translateY(-10px);
+            }
+            70% {
+                transform: scale(0.95) translateY(5px);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1) translateY(0);
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0.7;
+            }
+        }
+
+        /* Base animations */
+        .animate-fade-in-up {
+            animation: fadeInUp 0.8s ease-out forwards;
+        }
+
+        .animation-delay-200 {
+            animation-delay: 200ms;
+        }
+
+        .animation-delay-500 {
+            animation-delay: 500ms;
+        }
+
+        /* Stats Cards */
+        .stats-card {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        .stats-card.animate {
+            opacity: 1;
+            transform: translateY(0);
+            animation: slideInUp 0.8s ease-out forwards;
+        }
+
+        .stats-card:hover {
+            transform: translateY(-5px) scale(1.02);
+        }
+
+        /* Number styling */
+        .stat-number {
+            position: relative;
+            display: inline-block;
+        }
+
+        .stat-number .counter-value {
+            display: inline-block;
+            font-variant-numeric: tabular-nums;
+            transition: all 0.3s ease;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 640px) {
+            .stat-number {
+                font-size: 2.5rem;
+            }
+            
+            .stats-card {
+                margin-bottom: 2rem;
+            }
+        }
+
+        /* Modern glassmorphism effect */
+        .stats-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.05));
+            border-radius: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: -1;
+        }
+
+        .stats-card:hover::before {
+            opacity: 1;
+        }
+
+        .stats-card {
+            position: relative;
+            padding: 2rem 1rem;
+            border-radius: 1rem;
+        }
+
+        /* Loading placeholder */
+        .counter-value.loading {
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+            background-size: 200% 100%;
+            animation: loading 1.5s ease-in-out infinite;
+        }
+
+        @keyframes loading {
+            0% {
+                background-position: 200% 0;
+            }
+            100% {
+                background-position: -200% 0;
+            }
+        }
+    </style>
+
+    <!-- Enhanced JavaScript for Animations -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Initialize stats section
+            initializeStatsSection('stats-section-68a3fc45d4f87');
+        });
+
+        function initializeStatsSection(sectionId) {
+            const section = document.getElementById(sectionId);
+            if (!section) return;
+
+            // Set up intersection observer for scroll-triggered animations
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        animateStatsSection(entry.target);
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, {
+                threshold: 0.3,
+                rootMargin: '0px 0px -100px 0px'
+            });
+
+            observer.observe(section);
+        }
+
+        function animateStatsSection(section) {
+            const statsCards = section.querySelectorAll('.stats-card');
+            
+            statsCards.forEach((card, index) => {
+                // Animate card entrance
+                setTimeout(() => {
+                    card.classList.add('animate');
+                    
+                    // Animate counter
+                    const numberElement = card.querySelector('.stat-number');
+                    const counterValue = card.querySelector('.counter-value');
+                    const target = numberElement.getAttribute('data-target');
+                    const animationType = numberElement.getAttribute('data-animation');
+                    
+                    // Start counter animation
+                    animateCounter(counterValue, target, animationType);
+                    
+                }, index * 150);
+            });
+        }
+
+        function animateCounter(element, target, animationType = 'countup') {
+            // Extract number and suffix from target
+            const numericPart = target.match(/[\d,\.]+/) ? target.match(/[\d,\.]+/)[0] : '0';
+            const prefix = target.substring(0, target.indexOf(numericPart));
+            const suffix = target.substring(target.indexOf(numericPart) + numericPart.length);
+            const targetNumber = parseFloat(numericPart.replace(/,/g, '')) || 0;
+            
+            if (targetNumber === 0 || animationType !== 'countup') {
+                // Just show the target immediately for non-numeric or non-countup animations
+                element.textContent = target;
+                return;
+            }
+            
+            // Animate the counter
+            let startTime = null;
+            const duration = Math.min(2000 + (targetNumber * 2), 4000); // Dynamic duration based on number size
+            
+            function animate(currentTime) {
+                if (!startTime) startTime = currentTime;
+                const progress = Math.min((currentTime - startTime) / duration, 1);
+                
+                // Easing function for smooth animation
+                const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+                const currentNumber = Math.floor(easeOutQuart * targetNumber);
+                
+                // Format number with commas if original had them
+                let displayNumber = currentNumber.toString();
+                if (numericPart.includes(',')) {
+                    displayNumber = displayNumber.replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+                }
+                
+                element.textContent = prefix + displayNumber + suffix;
+                
+                if (progress < 1) {
+                    requestAnimationFrame(animate);
+                } else {
+                    element.textContent = target; // Ensure final value is exact
+                }
+            }
+            
+            requestAnimationFrame(animate);
+        }
+
+        // Add hover effects
+        document.addEventListener('DOMContentLoaded', function() {
+            const statsCards = document.querySelectorAll('.stats-card');
+            
+            statsCards.forEach(card => {
+                card.addEventListener('mouseenter', function() {
+                    // Add subtle shake animation to number
+                    const number = this.querySelector('.stat-number');
+                    number.style.animation = 'pulse 0.6s ease-in-out';
+                });
+                
+                card.addEventListener('mouseleave', function() {
+                    const number = this.querySelector('.stat-number');
+                    number.style.animation = '';
+                });
+            });
+        });
+
+        // Parallax effect for background elements
+        window.addEventListener('scroll', function() {
+            const scrolled = window.pageYOffset;
+            const parallaxElements = document.querySelectorAll('#stats-section-68a3fc45d4f87 .absolute');
+            
+            parallaxElements.forEach((element, index) => {
+                const speed = 0.5 + (index * 0.1);
+                element.style.transform = `translateY(${scrolled * speed}px)`;
+            });
+        });
+    </script>
+
+    </div><div class="relative group"><div class="absolute top-4 right-4 z-40 opacity-80 hover:opacity-100 transition-opacity duration-200"><a href="http://localhost/cmsfortestpwreset/admin/edit-section.php?id=5" class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 transition duration-200 pointer-events-auto shadow-md admin-edit-btn" style="background-color: #3b82f6;"><i class="fas fa-edit mr-1"></i>Edit</a></div>    
+    <section id="cta-section-68a3fc45d507c" class="cta-section py-20 relative overflow-hidden transition-all duration-500" 
+             style="background-color: #354640;">
+        
+        <!-- SMART CONTROLLABLE DARK OVERLAY for Images -->
+                    <!-- Light Pattern Overlay for Solid/Gradient only -->
+            <div class="absolute inset-0 opacity-10 pointer-events-none">
+                <div style="background-image: radial-gradient(circle at 1px 1px, rgba(255,255,255,0.3) 1px, transparent 0); background-size: 20px 20px; width: 100%; height: 100%;"></div>
+            </div>
+                
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
+            <!-- Title -->
+                            <h2 class="cta-title text-3xl md:text-5xl font-bold mb-6 transition-colors duration-300 " 
+                     style="color: #000000;">
+                    Ready to Get Started?                </h2>
+                        
+            <!-- Subtitle -->
+                            <p class="cta-subtitle text-xl mb-8 opacity-90 transition-colors duration-300 " 
+                    style="color: #000000;">
+                    Join thousands of satisfied customers                </p>
+                        
+            <!-- Content -->
+            <p class="cta-content text-lg mb-8 opacity-80 transition-colors duration-300 " 
+                style="color: #000000;">
+                Take your business to the next level with our proven solutions. Contact us today for a free consultation and see the difference we can make.            </p>
+            
+            <!-- Buttons Container -->
+            <div class="flex flex-wrap gap-4 justify-center items-center">
+                <!-- Primary Button - Always show with fallback -->
+                                <a href="" 
+                   class="inline-block px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl cta-primary-button group relative overflow-hidden "
+                   style="background-color: #4b71af; color: #ffffff;">
+                    <!-- Button shine effect -->
+                    <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-500 transform -skew-x-12 -translate-x-full group-hover:translate-x-full"></span>
+                    <span class="relative z-10">Get Started Now</span>
+                </a>
+                
+                <!-- Secondary Button - Only show if configured -->
+                                                        <a href="" 
+                       class="inline-block px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-xl cta-secondary-button group relative overflow-hidden"
+                       style="background-color: #1251ce; color: #ffffff;"
+                       onmouseover="handleSecondaryButtonHover(this, 'solid', '#1251ce', '#ffffff')"
+                       onmouseout="handleSecondaryButtonOut(this, 'solid', '#1251ce', '#ffffff')">
+                        <!-- Button shine effect -->
+                        <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white to-transparent opacity-0 group-hover:opacity-20 transition-opacity duration-500 transform -skew-x-12 -translate-x-full group-hover:translate-x-full"></span>
+                        <span class="relative z-10">Learn More</span>
+                    </a>
+                            </div>
+        </div>
+    </section>
+    
+    <!-- COMPLETELY FIXED CSS - Overrides ALL external styles -->
+    <style>
+        /* FORCE COMPLETE OVERRIDE OF ALL EXTERNAL STYLES */
+        #cta-section-68a3fc45d507c {
+            /* Reset all background blend modes */
+            background-blend-mode: normal !important;
+            mix-blend-mode: normal !important;
+            
+                    }
+        
+        /* REMOVE ALL PSEUDO-ELEMENTS THAT MIGHT ADD OVERLAYS */
+        #cta-section-68a3fc45d507c::before,
+        #cta-section-68a3fc45d507c::after,
+        #cta-section-68a3fc45d507c .cta-section::before,
+        #cta-section-68a3fc45d507c .cta-section::after,
+        #cta-section-68a3fc45d507c .bg-image::before,
+        #cta-section-68a3fc45d507c .bg-image::after {
+            display: none !important;
+            content: none !important;
+            background: none !important;
+            opacity: 0 !important;
+            visibility: hidden !important;
+        }
+        
+        /* OVERRIDE EXTERNAL CSS CLASSES THAT ADD OVERLAYS */
+        #cta-section-68a3fc45d507c.bg-overlay-dark::before,
+        #cta-section-68a3fc45d507c.bg-overlay-light::before,
+        #cta-section-68a3fc45d507c .bg-overlay-dark::before,
+        #cta-section-68a3fc45d507c .bg-overlay-light::before {
+            display: none !important;
+            opacity: 0 !important;
+        }
+        
+        /* iOS Safari specific fixes */
+        @supports (-webkit-touch-callout: none) {
+            #cta-section-68a3fc45d507c {
+                background-attachment: scroll !important;
+                -webkit-background-size: cover !important;
+            }
+        }
+        
+        /* Scope all styles to the specific CTA section */
+        #cta-section-68a3fc45d507c .cta-primary-button {
+            position: relative;
+            background-image: linear-gradient(45deg, transparent 30%, rgba(255,255,255,0.1) 50%, transparent 70%);
+            background-size: 200% 100%;
+            background-position: 200% 0;
+            transition: all 0.3s ease;
+        }
+        
+        #cta-section-68a3fc45d507c .cta-primary-button:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            background-position: -200% 0;
+        }
+        
+        #cta-section-68a3fc45d507c .cta-primary-button:active {
+            transform: translateY(0) scale(1.02);
+            transition: transform 0.1s ease;
+        }
+        
+        /* Secondary Button Animations */
+        #cta-section-68a3fc45d507c .cta-secondary-button {
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        
+        #cta-section-68a3fc45d507c .cta-secondary-button:hover {
+            transform: translateY(-2px) scale(1.05);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        #cta-section-68a3fc45d507c .cta-secondary-button:active {
+            transform: translateY(0) scale(1.02);
+            transition: transform 0.1s ease;
+        }
+        
+        /* Enhanced shadow effects for image backgrounds - SCOPED */
+                
+        /* Pulse animation for CTA section */
+        @keyframes ctaPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+        
+        #cta-section-68a3fc45d507c .cta-primary-button:hover {
+            animation: ctaPulse 2s infinite;
+        }
+        
+        /* Responsive adjustments - SCOPED */
+        @media (max-width: 768px) {
+            #cta-section-68a3fc45d507c .cta-primary-button,
+            #cta-section-68a3fc45d507c .cta-secondary-button {
+                width: 100%;
+                text-align: center;
+                margin-bottom: 1rem;
+            }
+            
+            /* Force vertical layout on mobile */
+            #cta-section-68a3fc45d507c .flex-wrap {
+                flex-direction: column !important;
+            }
+            
+            /* Adjust text sizes on mobile - SCOPED */
+            #cta-section-68a3fc45d507c .cta-title {
+                font-size: 2rem !important;
+            }
+            
+            #cta-section-68a3fc45d507c .cta-subtitle,
+            #cta-section-68a3fc45d507c .cta-content {
+                font-size: 1rem !important;
+            }
+        }
+        
+        /* Gradient animation for gradient backgrounds - SCOPED */
+                
+        /* Dark mode adjustments - SCOPED */
+        @media (prefers-color-scheme: dark) {
+            #cta-section-68a3fc45d507c .cta-primary-button,
+            #cta-section-68a3fc45d507c .cta-secondary-button {
+                box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+            }
+            
+            #cta-section-68a3fc45d507c .cta-primary-button:hover,
+            #cta-section-68a3fc45d507c .cta-secondary-button:hover {
+                box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+            }
+        }
+    </style>
+    
+    <!-- JavaScript for Enhanced Interactions -->
+    <script>
+        // Debug function for CTA section
+        
+        // Enhanced secondary button hover effects
+        function handleSecondaryButtonHover(button, style, bgColor, textColor) {
+            switch(style) {
+                case 'outline':
+                    button.style.backgroundColor = bgColor;
+                    button.style.color = textColor;
+                    button.style.borderColor = bgColor;
+                    break;
+                case 'ghost':
+                    button.style.backgroundColor = bgColor;
+                    button.style.color = textColor;
+                    break;
+                default: // solid
+                    button.style.opacity = '0.9';
+                    button.style.filter = 'brightness(1.1)';
+                    break;
+            }
+        }
+        
+        function handleSecondaryButtonOut(button, style, bgColor, textColor) {
+            switch(style) {
+                case 'outline':
+                    button.style.backgroundColor = 'transparent';
+                    button.style.color = bgColor;
+                    button.style.borderColor = bgColor;
+                    break;
+                case 'ghost':
+                    button.style.backgroundColor = 'transparent';
+                    button.style.color = bgColor;
+                    break;
+                default: // solid
+                    button.style.opacity = '1';
+                    button.style.filter = 'brightness(1)';
+                    break;
+            }
+        }
+        
+        // Add click ripple effect
+        document.addEventListener('DOMContentLoaded', function() {
+            // Run debug (uncomment to debug)
+            // debugCtaSection();
+            
+            const buttons = document.querySelectorAll('#cta-section-68a3fc45d507c .cta-primary-button, #cta-section-68a3fc45d507c .cta-secondary-button');
+            
+            buttons.forEach(button => {
+                button.addEventListener('click', function(e) {
+                    const ripple = document.createElement('span');
+                    const rect = this.getBoundingClientRect();
+                    const size = Math.max(rect.width, rect.height);
+                    const x = e.clientX - rect.left - size / 2;
+                    const y = e.clientY - rect.top - size / 2;
+                    
+                    ripple.style.cssText = `
+                        position: absolute;
+                        width: ${size}px;
+                        height: ${size}px;
+                        left: ${x}px;
+                        top: ${y}px;
+                        background: rgba(255, 255, 255, 0.3);
+                        border-radius: 50%;
+                        transform: scale(0);
+                        animation: ripple 0.6s ease-out;
+                        pointer-events: none;
+                        z-index: 1;
+                    `;
+                    
+                    this.appendChild(ripple);
+                    
+                    setTimeout(() => {
+                        ripple.remove();
+                    }, 600);
+                });
+            });
+        });
+    </script>
+    
+    <!-- Add ripple animation CSS -->
+    <style>
+        @keyframes ripple {
+            to {
+                transform: scale(2);
+                opacity: 0;
+            }
+        }
+    </style>
+    
+    </div><div class="relative group"><div class="absolute top-4 right-4 z-40 opacity-80 hover:opacity-100 transition-opacity duration-200"><a href="http://localhost/cmsfortestpwreset/admin/edit-section.php?id=4" class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 transition duration-200 pointer-events-auto shadow-md admin-edit-btn" style="background-color: #3b82f6;"><i class="fas fa-edit mr-1"></i>Edit</a></div>    <section class="py-16" style="background-color: #ffffff; color: #000000;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center px-6 py-2 backdrop-blur-lg rounded-full text-sm font-semibold uppercase tracking-wider mb-6 border" 
+                     style="background-color: #00000020; color: #000000; border-color: #00000020;">
+                    <span class="w-2 h-2 bg-indigo-400 rounded-full mr-2 animate-pulse"></span>
+                    Testimonials
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold text-black mb-2" style="color: #000000;">
+                    What Our Clients Say                </h2>
+                                    <p class="text-lg mt-2 opacity-80 max-w-2xl mx-auto" style="color: #000000;">
+                        Real feedback from real customers                    </p>
+                                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-2"></div>
+            </div>
+            
+            <!-- Carousel Container -->
+            <div class="relative max-w-7xl mx-auto">
+                <div class="carousel-container overflow-hidden">
+                    <div class="carousel-track flex transition-transform duration-300 ease-in-out" id="testimonials-68a3fc45d5170">
+                                                    <div class="carousel-slide w-full flex-shrink-0">
+                                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-4">
+                                                                                                                    <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 testimonial-card relative overflow-hidden">
+                                            <!-- Quote Icon -->
+                                            <div class="absolute top-4 left-4 text-blue-100">
+                                                <i class="fas fa-quote-left text-2xl"></i>
+                                            </div>
+                                            
+                                            <!-- Stars -->
+                                            <div class="flex justify-end mb-3">
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                                                            </div>
+                                            
+                                            <!-- Testimonial Text -->
+                                            <div class="testimonial-text-container relative mb-4">
+                                                <div class="testimonial-text-wrapper">
+                                                    <p class="text-gray-700 text-base leading-relaxed font-medium testimonial-text">
+                                                        "Amazing service and incredible results. Our business grew 300% after working with them."
+                                                    </p>
+                                                                                                    </div>
+                                            </div>
+                                            
+                                            <!-- Author Info -->
+                                            <div class="flex items-center pt-4 border-t border-gray-100">
+                                                                                                    <img src="http://localhost/cmsfortestpwreset/uploads/6880712871bef_1753248040.png" 
+                                                         alt="John Smith, CEO of TechCorp" 
+                                                         class="w-12 h-12 rounded-full mr-4 object-cover border-2 border-gray-200"
+                                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                                    <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mr-4 flex items-center justify-center" style="display: none;">
+                                                        <i class="fas fa-user text-white"></i>
+                                                    </div>
+                                                                                                <div class="flex-1">
+                                                    <h4 class="font-semibold text-gray-900 text-sm">John Smith, CEO of TechCorp</h4>
+                                                    <div class="flex items-center mt-1">
+                                                                                                                    <div class="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
+                                                            <span class="text-xs text-gray-500">Verified Customer</span>
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                    <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 testimonial-card relative overflow-hidden">
+                                            <!-- Quote Icon -->
+                                            <div class="absolute top-4 left-4 text-blue-100">
+                                                <i class="fas fa-quote-left text-2xl"></i>
+                                            </div>
+                                            
+                                            <!-- Stars -->
+                                            <div class="flex justify-end mb-3">
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                                                            </div>
+                                            
+                                            <!-- Testimonial Text -->
+                                            <div class="testimonial-text-container relative mb-4">
+                                                <div class="testimonial-text-wrapper">
+                                                    <p class="text-gray-700 text-base leading-relaxed font-medium testimonial-text">
+                                                        "Professional team that delivers on promises. Highly recommended for any business."
+                                                    </p>
+                                                                                                    </div>
+                                            </div>
+                                            
+                                            <!-- Author Info -->
+                                            <div class="flex items-center pt-4 border-t border-gray-100">
+                                                                                                    <img src="http://localhost/cmsfortestpwreset/uploads/68674f2157daf_1751600929.jpg" 
+                                                         alt="Sarah Johnson, Marketing Director" 
+                                                         class="w-12 h-12 rounded-full mr-4 object-cover border-2 border-gray-200"
+                                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                                    <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mr-4 flex items-center justify-center" style="display: none;">
+                                                        <i class="fas fa-user text-white"></i>
+                                                    </div>
+                                                                                                <div class="flex-1">
+                                                    <h4 class="font-semibold text-gray-900 text-sm">Sarah Johnson, Marketing Director</h4>
+                                                    <div class="flex items-center mt-1">
+                                                                                                                    <div class="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
+                                                            <span class="text-xs text-gray-500">Verified Customer</span>
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                                                                    <div class="bg-white p-6 rounded-xl shadow-md border border-gray-100 testimonial-card relative overflow-hidden">
+                                            <!-- Quote Icon -->
+                                            <div class="absolute top-4 left-4 text-blue-100">
+                                                <i class="fas fa-quote-left text-2xl"></i>
+                                            </div>
+                                            
+                                            <!-- Stars -->
+                                            <div class="flex justify-end mb-3">
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                    <i class="fas fa-star text-yellow-400 text-sm ml-1"></i>
+                                                                                                                                            </div>
+                                            
+                                            <!-- Testimonial Text -->
+                                            <div class="testimonial-text-container relative mb-4">
+                                                <div class="testimonial-text-wrapper">
+                                                    <p class="text-gray-700 text-base leading-relaxed font-medium testimonial-text">
+                                                        "Best investment we made for our company. The ROI was incredible."
+                                                    </p>
+                                                                                                    </div>
+                                            </div>
+                                            
+                                            <!-- Author Info -->
+                                            <div class="flex items-center pt-4 border-t border-gray-100">
+                                                                                                    <img src="http://localhost/cmsfortestpwreset/uploads/68674f383e559_1751600952.jpg" 
+                                                         alt="Mike Davis, Founder" 
+                                                         class="w-12 h-12 rounded-full mr-4 object-cover border-2 border-gray-200"
+                                                         onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                                                    <div class="w-12 h-12 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full mr-4 flex items-center justify-center" style="display: none;">
+                                                        <i class="fas fa-user text-white"></i>
+                                                    </div>
+                                                                                                <div class="flex-1">
+                                                    <h4 class="font-semibold text-gray-900 text-sm">Mike Davis, Founder</h4>
+                                                    <div class="flex items-center mt-1">
+                                                                                                                    <div class="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
+                                                            <span class="text-xs text-gray-500">Verified Customer</span>
+                                                                                                            </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                                                    </div>
+                            </div>
+                                            </div>
+                </div>
+                
+                <!-- Navigation Buttons -->
+                            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Modal -->
+    <div id="testimonialModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 opacity-0 invisible transition-all duration-300">
+        <div class="bg-white rounded-2xl p-8 max-w-2xl mx-4 max-h-[90vh] overflow-y-auto testimonial-modal-content transform scale-95 transition-all duration-300 relative">
+            <!-- Close Button -->
+            <button onclick="closeTestimonialModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 transition-colors text-xl">
+                <i class="fas fa-times"></i>
+            </button>
+            
+            <!-- Modal Content -->
+            <div class="pr-8">
+                <!-- Quote Icon -->
+                <div class="text-blue-500 mb-4">
+                    <i class="fas fa-quote-left text-3xl"></i>
+                </div>
+                
+                <!-- Stars -->
+                <div id="modalStars" class="flex mb-6"></div>
+                
+                <!-- Full Text -->
+                <div class="mb-8">
+                    <p id="modalText" class="text-gray-700 text-lg leading-relaxed font-medium"></p>
+                </div>
+                
+                <!-- Author Info -->
+                <div class="flex items-center pt-6 border-t border-gray-200">
+                    <div id="modalAvatar" class="w-16 h-16 rounded-full mr-4 flex items-center justify-center"></div>
+                    <div>
+                        <h4 id="modalAuthor" class="font-semibold text-gray-900 text-lg"></h4>
+                        <div class="flex items-center mt-2">
+                            <div class="w-2 h-2 bg-green-400 rounded-full mr-2"></div>
+                            <span class="text-sm text-gray-500">Verified Customer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .carousel-container {
+            position: relative;
+        }
+        
+        .carousel-btn {
+            z-index: 10;
+            opacity: 1;
+        }
+        
+        .carousel-dot.active {
+            background-color: #4B5563 !important;
+        }
+        
+        .carousel-slide {
+            min-height: 320px;
+        }
+        
+        .testimonial-card {
+            height: auto;
+            min-height: 280px;
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .testimonial-text-container {
+            flex: 1;
+            position: relative;
+        }
+        
+        .testimonial-text-wrapper {
+            position: relative;
+        }
+        
+        .read-more-btn {
+            position: relative;
+            z-index: 5;
+            transition: color 0.2s ease-in-out;
+        }
+        
+        .read-more-btn:hover {
+            color: #2563eb;
+        }
+        
+        /* Modal Styles */
+        .testimonial-modal-content {
+            position: relative;
+        }
+        
+        #testimonialModal.show {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        #testimonialModal.show .testimonial-modal-content {
+            transform: scale(1);
+        }
+        
+        @keyframes slideIn {
+            from {
+                transform: translateY(10px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .carousel-btn {
+                display: none;
+            }
+            .carousel-slide .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        @media (min-width: 769px) and (max-width: 1023px) {
+            .carousel-slide .grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+
+    <script>
+        let currentSlide = 0;
+        const totalSlides = 1;
+
+        function moveCarousel(carouselId, direction) {
+            if (totalSlides <= 1) return;
+            
+            const track = document.getElementById(carouselId);
+            const dots = track.closest('.relative').querySelectorAll('.carousel-dot');
+            
+            currentSlide += direction;
+            
+            if (currentSlide >= totalSlides) {
+                currentSlide = 0;
+            } else if (currentSlide < 0) {
+                currentSlide = totalSlides - 1;
+            }
+            
+            const translateX = -currentSlide * 100;
+            track.style.transform = `translateX(${translateX}%)`;
+            
+            // Update dots
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+                dot.style.backgroundColor = index === currentSlide ? '#4B5563' : '#D1D5DB';
+            });
+        }
+
+        function goToSlide(carouselId, slideIndex) {
+            if (totalSlides <= 1) return;
+            
+            const track = document.getElementById(carouselId);
+            const dots = track.closest('.relative').querySelectorAll('.carousel-dot');
+            
+            currentSlide = slideIndex;
+            const translateX = -currentSlide * 100;
+            track.style.transform = `translateX(${translateX}%)`;
+            
+            // Update dots
+            dots.forEach((dot, index) => {
+                dot.classList.toggle('active', index === currentSlide);
+                dot.style.backgroundColor = index === currentSlide ? '#4B5563' : '#D1D5DB';
+            });
+        }
+
+        function openTestimonialModal(button) {
+            const modal = document.getElementById('testimonialModal');
+            const modalText = document.getElementById('modalText');
+            const modalAuthor = document.getElementById('modalAuthor');
+            const modalAvatar = document.getElementById('modalAvatar');
+            const modalStars = document.getElementById('modalStars');
+            
+            // Get data from button attributes
+            const text = button.getAttribute('data-text');
+            const author = button.getAttribute('data-author');
+            const avatar = button.getAttribute('data-avatar');
+            const stars = parseInt(button.getAttribute('data-stars'));
+            
+            // Set text content
+            modalText.textContent = '"' + text + '"';
+            modalAuthor.textContent = author;
+            
+            // Set stars
+            modalStars.innerHTML = '';
+            for (let i = 0; i < stars; i++) {
+                modalStars.innerHTML += '<i class="fas fa-star text-yellow-400 text-lg mr-1"></i>';
+            }
+            for (let i = stars; i < 5; i++) {
+                modalStars.innerHTML += '<i class="far fa-star text-gray-300 text-lg mr-1"></i>';
+            }
+            
+            // Set avatar
+            if (avatar) {
+                modalAvatar.innerHTML = `<img src="${avatar}" alt="${author}" class="w-16 h-16 rounded-full object-cover border-2 border-gray-200" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center" style="display: none;">
+                        <i class="fas fa-user text-white text-xl"></i>
+                    </div>`;
+            } else {
+                modalAvatar.innerHTML = `<div class="w-16 h-16 bg-gradient-to-br from-blue-400 to-blue-600 rounded-full flex items-center justify-center">
+                    <i class="fas fa-user text-white text-xl"></i>
+                </div>`;
+            }
+            
+            // Show modal
+            modal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        function closeTestimonialModal() {
+            const modal = document.getElementById('testimonialModal');
+            modal.classList.remove('show');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Close modal when clicking outside
+        document.getElementById('testimonialModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeTestimonialModal();
+            }
+        });
+        
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                closeTestimonialModal();
+            }
+        });
+    </script>
+    </div><div class="relative group"><div class="absolute top-4 right-4 z-40 opacity-80 hover:opacity-100 transition-opacity duration-200"><a href="http://localhost/cmsfortestpwreset/admin/edit-section.php?id=2" class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 transition duration-200 pointer-events-auto shadow-md admin-edit-btn" style="background-color: #3b82f6;"><i class="fas fa-edit mr-1"></i>Edit</a></div>    
+    <section class="relative w-full overflow-hidden mb-12" style="background-color: #ffffff;">
+        <!-- Main Slider Container -->
+        <div id="elegant-slider-2" class="relative group">
+            <div class="slider-wrapper flex transition-all duration-700 ease-out">
+                                    <div class="slide w-full flex-shrink-0 relative">
+                        <div class="relative h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden">
+                            <!-- Image with Ken Burns Effect -->
+                            <img src="uploads/686625d529889_1751524821.jpg" 
+                                 alt=""
+                                 class="w-full h-full object-cover transition-transform duration-[20s] ease-out transform hover:scale-105">
+                            
+                            <!-- Elegant Gradient Overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                            
+                            <!-- Centered Content Container -->
+                                                    </div>
+                    </div>
+                                    <div class="slide w-full flex-shrink-0 relative">
+                        <div class="relative h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden">
+                            <!-- Image with Ken Burns Effect -->
+                            <img src="uploads/686623e550492_1751524325.jpg" 
+                                 alt=""
+                                 class="w-full h-full object-cover transition-transform duration-[20s] ease-out transform hover:scale-105">
+                            
+                            <!-- Elegant Gradient Overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                            
+                            <!-- Centered Content Container -->
+                                                    </div>
+                    </div>
+                                    <div class="slide w-full flex-shrink-0 relative">
+                        <div class="relative h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden">
+                            <!-- Image with Ken Burns Effect -->
+                            <img src="uploads/686623ec2d159_1751524332.jpg" 
+                                 alt=""
+                                 class="w-full h-full object-cover transition-transform duration-[20s] ease-out transform hover:scale-105">
+                            
+                            <!-- Elegant Gradient Overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                            
+                            <!-- Centered Content Container -->
+                                                    </div>
+                    </div>
+                                    <div class="slide w-full flex-shrink-0 relative">
+                        <div class="relative h-[70vh] min-h-[500px] max-h-[800px] overflow-hidden">
+                            <!-- Image with Ken Burns Effect -->
+                            <img src="uploads/686623f1a49c4_1751524337.jpg" 
+                                 alt=""
+                                 class="w-full h-full object-cover transition-transform duration-[20s] ease-out transform hover:scale-105">
+                            
+                            <!-- Elegant Gradient Overlay -->
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent"></div>
+                            
+                            <!-- Centered Content Container -->
+                                                    </div>
+                    </div>
+                                
+
+            </div>
+            
+            <!-- Minimal Navigation Arrows -->
+                            <button class="absolute left-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-full transition-all duration-300 hover:bg-white/20 hover:scale-110 opacity-0 group-hover:opacity-100 z-20 prev-btn-elegant_slider_2">
+                    <svg class="w-5 h-5 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/>
+                    </svg>
+                </button>
+                
+                <button class="absolute right-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-white/10 backdrop-blur-sm border border-white/20 text-white rounded-full transition-all duration-300 hover:bg-white/20 hover:scale-110 opacity-0 group-hover:opacity-100 z-20 next-btn-elegant_slider_2">
+                    <svg class="w-5 h-5 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/>
+                    </svg>
+                </button>
+                        
+            <!-- Elegant Progress Dots -->
+                            <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex items-center space-x-3 z-20">
+                                            <button class="relative slider-dot-elegant_slider_2 group/dot" data-slide="0">
+                            <div class="w-2 h-2 rounded-full bg-white/40 transition-all duration-300 group-hover/dot:bg-white/60 bg-white scale-125"></div>
+                                                            <div class="absolute inset-0 w-2 h-2 rounded-full bg-white/20 scale-150"></div>
+                                                    </button>
+                                            <button class="relative slider-dot-elegant_slider_2 group/dot" data-slide="1">
+                            <div class="w-2 h-2 rounded-full bg-white/40 transition-all duration-300 group-hover/dot:bg-white/60 "></div>
+                                                    </button>
+                                            <button class="relative slider-dot-elegant_slider_2 group/dot" data-slide="2">
+                            <div class="w-2 h-2 rounded-full bg-white/40 transition-all duration-300 group-hover/dot:bg-white/60 "></div>
+                                                    </button>
+                                            <button class="relative slider-dot-elegant_slider_2 group/dot" data-slide="3">
+                            <div class="w-2 h-2 rounded-full bg-white/40 transition-all duration-300 group-hover/dot:bg-white/60 "></div>
+                                                    </button>
+                                    </div>
+                        
+            <!-- Slide Counter -->
+                            <div class="absolute top-8 right-8 text-white/70 text-sm font-light z-20">
+                    <span class="slide-counter">01</span> / 04                </div>
+                    </div>
+    </section>
+    
+    <!-- Elegant Scoped Styles -->
+    <style>
+        /* Smooth slide animations */
+        #elegant-slider-2 .slide-title,
+        #elegant-slider-2 .slide-description,
+        #elegant-slider-2 .slide-button {
+            transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        
+        #elegant-slider-2 .slide.active .slide-title {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.3s;
+        }
+        
+        #elegant-slider-2 .slide.active .slide-description {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.5s;
+        }
+        
+        #elegant-slider-2 .slide.active .slide-button {
+            opacity: 1;
+            transform: translateY(0);
+            transition-delay: 0.7s;
+        }
+        
+        /* Dot active state */
+        #elegant-slider-2 .slider-dot-elegant_slider_2.active > div:first-child {
+            background-color: white !important;
+            transform: scale(1.25);
+        }
+        
+        #elegant-slider-2 .slider-dot-elegant_slider_2.active > div:last-child {
+            opacity: 1;
+        }
+        
+        /* Hover effects for better UX */
+        #elegant-slider-2 .slide img {
+            transition: transform 20s ease-out;
+        }
+        
+        #elegant-slider-2:hover .slide img {
+            transform: scale(1.02);
+        }
+        
+        /* Loading state for images */
+        #elegant-slider-2 .slide img {
+            background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+            background-size: 200% 100%;
+            animation: loading 1.5s infinite;
+        }
+        
+        #elegant-slider-2 .slide img[src] {
+            background: none;
+            animation: none;
+        }
+        
+        @keyframes loading {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+        
+
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            #elegant-slider-2 .slide h2 {
+                font-size: 2.5rem;
+                line-height: 1.2;
+            }
+            
+            #elegant-slider-2 .slide p {
+                font-size: 1rem;
+            }
+            
+            #elegant-slider-2 .slide .slide-button {
+                padding: 0.75rem 1.5rem;
+                font-size: 0.875rem;
+            }
+        }
+        
+        /* Smooth performance optimizations */
+        #elegant-slider-2 .slider-wrapper {
+            will-change: transform;
+        }
+        
+        #elegant-slider-2 .slide {
+            will-change: transform;
+        }
+        
+        /* Focus states for accessibility */
+        #elegant-slider-2 button:focus {
+            outline: 2px solid white;
+            outline-offset: 2px;
+        }
+    </style>
+    
+            <script>
+            (function() {
+                const sliderId = 'elegant-slider-2';
+                const safeId = 'elegant_slider_2';
+                let currentSlide = 0;
+                const totalSlides = 4;
+                let autoSlideInterval;
+                let isTransitioning = false;
+                
+                // Initialize first slide
+                document.addEventListener('DOMContentLoaded', function() {
+                    updateSlider();
+                    startAutoSlide();
+                });
+                
+                function updateSlider() {
+                    if (isTransitioning) return;
+                    
+                    const slider = document.querySelector('#' + sliderId + ' .slider-wrapper');
+                    const slides = document.querySelectorAll('#' + sliderId + ' .slide');
+                    const counter = document.querySelector('#' + sliderId + ' .slide-counter');
+                    
+                    if (slider) {
+                        isTransitioning = true;
+                        slider.style.transform = `translateX(-${currentSlide * 100}%)`;
+                        
+                        // Update active slide
+                        slides.forEach((slide, index) => {
+                            slide.classList.toggle('active', index === currentSlide);
+                        });
+                        
+                        // Update counter
+                        if (counter) {
+                            counter.textContent = String(currentSlide + 1).padStart(2, '0');
+                        }
+                        
+                        // Reset transition flag
+                        setTimeout(() => {
+                            isTransitioning = false;
+                        }, 700);
+                    }
+                    
+                    // Update dots with smooth animation
+                    const dots = document.querySelectorAll('.slider-dot-' + safeId);
+                    dots.forEach((dot, index) => {
+                        const isActive = index === currentSlide;
+                        dot.classList.toggle('active', isActive);
+                        
+                        const innerDot = dot.querySelector('div:first-child');
+                        const outerDot = dot.querySelector('div:last-child');
+                        
+                        if (isActive) {
+                            innerDot.style.backgroundColor = 'white';
+                            innerDot.style.transform = 'scale(1.25)';
+                            if (outerDot) outerDot.style.opacity = '1';
+                        } else {
+                            innerDot.style.backgroundColor = 'rgba(255, 255, 255, 0.4)';
+                            innerDot.style.transform = 'scale(1)';
+                            if (outerDot) outerDot.style.opacity = '0';
+                        }
+                    });
+                }
+                
+                function nextSlide() {
+                    if (isTransitioning) return;
+                    currentSlide = (currentSlide + 1) % totalSlides;
+                    updateSlider();
+                    resetAutoSlide();
+                }
+                
+                function previousSlide() {
+                    if (isTransitioning) return;
+                    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                    updateSlider();
+                    resetAutoSlide();
+                }
+                
+                function goToSlide(slideIndex) {
+                    if (isTransitioning || slideIndex === currentSlide) return;
+                    currentSlide = slideIndex;
+                    updateSlider();
+                    resetAutoSlide();
+                }
+                
+                function startAutoSlide() {
+                    autoSlideInterval = setInterval(nextSlide, 6000);
+                }
+                
+                function resetAutoSlide() {
+                    clearInterval(autoSlideInterval);
+                    startAutoSlide();
+                }
+                
+                // Event listeners
+                const nextBtn = document.querySelector('.next-btn-' + safeId);
+                const prevBtn = document.querySelector('.prev-btn-' + safeId);
+                
+                if (nextBtn) nextBtn.addEventListener('click', nextSlide);
+                if (prevBtn) prevBtn.addEventListener('click', previousSlide);
+                
+                // Dots event listeners
+                const dots = document.querySelectorAll('.slider-dot-' + safeId);
+                dots.forEach((dot, index) => {
+                    dot.addEventListener('click', () => goToSlide(index));
+                });
+                
+                // Keyboard navigation
+                document.addEventListener('keydown', function(e) {
+                    const sliderContainer = document.getElementById(sliderId);
+                    if (!sliderContainer) return;
+                    
+                    // Check if slider is in viewport
+                    const rect = sliderContainer.getBoundingClientRect();
+                    const isVisible = rect.top < window.innerHeight && rect.bottom > 0;
+                    
+                    if (isVisible) {
+                        if (e.key === 'ArrowLeft') {
+                            e.preventDefault();
+                            previousSlide();
+                        } else if (e.key === 'ArrowRight') {
+                            e.preventDefault();
+                            nextSlide();
+                        }
+                    }
+                });
+                
+                // Pause/resume on hover and visibility
+                const sliderContainer = document.getElementById(sliderId);
+                if (sliderContainer) {
+                    sliderContainer.addEventListener('mouseenter', () => {
+                        clearInterval(autoSlideInterval);
+                    });
+                    
+                    sliderContainer.addEventListener('mouseleave', startAutoSlide);
+                    
+                    // Pause when page is not visible
+                    document.addEventListener('visibilitychange', function() {
+                        if (document.hidden) {
+                            clearInterval(autoSlideInterval);
+                        } else {
+                            startAutoSlide();
+                        }
+                    });
+                }
+                
+                // Touch/swipe support for mobile
+                let touchStartX = 0;
+                let touchEndX = 0;
+                
+                if (sliderContainer) {
+                    sliderContainer.addEventListener('touchstart', function(e) {
+                        touchStartX = e.changedTouches[0].screenX;
+                    }, { passive: true });
+                    
+                    sliderContainer.addEventListener('touchend', function(e) {
+                        touchEndX = e.changedTouches[0].screenX;
+                        handleSwipe();
+                    }, { passive: true });
+                }
+                
+                function handleSwipe() {
+                    const swipeThreshold = 50;
+                    const diff = touchStartX - touchEndX;
+                    
+                    if (Math.abs(diff) > swipeThreshold) {
+                        if (diff > 0) {
+                            nextSlide(); // Swiped left
+                        } else {
+                            previousSlide(); // Swiped right
+                        }
+                    }
+                }
+            })();
+        </script>
+        
+    </div><div class="relative group"><div class="absolute top-4 right-4 z-40 opacity-80 hover:opacity-100 transition-opacity duration-200"><a href="http://localhost/cmsfortestpwreset/admin/edit-section.php?id=6" class="bg-blue-600 text-white px-3 py-1 rounded text-sm hover:bg-blue-700 transition duration-200 pointer-events-auto shadow-md admin-edit-btn" style="background-color: #3b82f6;"><i class="fas fa-edit mr-1"></i>Edit</a></div>    <section id="features-section-68a3fc45d5784" class="py-20" style="background-color: #ffffff;">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Section Header -->
+            <div class="text-center mb-16">
+                <div class="inline-flex items-center px-6 py-2 backdrop-blur-lg rounded-full text-sm font-semibold uppercase tracking-wider mb-6 border" 
+                     style="background-color: #00000020; color: #000000; border-color: #00000020;">
+                    <span class="w-2 h-2 bg-indigo-400 rounded-full mr-2 animate-pulse"></span>
+                    Features
+                </div>
+                <h2 class="text-4xl md:text-5xl font-bold mb-2" style="color: #000000;">
+                    Why Choose Us                </h2>
+                                <div class="w-24 h-1 bg-gradient-to-r from-blue-500 to-purple-500 mx-auto rounded-full mt-2"></div>
+            </div>
+
+            <!-- Features Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                                    <div class="feature-card bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                        <!-- Icon and Content Container -->
+                        <div class="flex items-start space-x-4">
+                            <!-- Icon -->
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 rounded-lg flex items-center justify-center shadow-sm" 
+                                     style="background-color: #3b82f6;">
+                                    <i class="fas fa-magic text-lg" 
+                                       style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            
+                            <!-- Content -->
+                            <div class="flex-1 min-w-0">
+                                <!-- Title and Badge Container -->
+                                <div class="flex items-center flex-wrap gap-2 mb-3">
+                                    <h3 class="font-semibold text-gray-900 text-xl leading-tight">
+                                        Professional Service                                    </h3>
+                                                                    </div>
+                                
+                                                                
+                                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                                    Expert team with years of experience                                </p>
+                                
+                                <!-- Learn More Link -->
+                                                                                                        <a href="https://example.com" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors duration-200">
+                                        Learn More
+                                        <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                        </svg>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="feature-card bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                        <!-- Icon and Content Container -->
+                        <div class="flex items-start space-x-4">
+                            <!-- Icon -->
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 rounded-lg flex items-center justify-center shadow-sm" 
+                                     style="background-color: #3b82f6;">
+                                    <i class="fas fa-mobile-alt text-lg" 
+                                       style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            
+                            <!-- Content -->
+                            <div class="flex-1 min-w-0">
+                                <!-- Title and Badge Container -->
+                                <div class="flex items-center flex-wrap gap-2 mb-3">
+                                    <h3 class="font-semibold text-gray-900 text-xl leading-tight">
+                                        Professional Service 2                                    </h3>
+                                                                    </div>
+                                
+                                                                
+                                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                                    Expert team with years of experience                                </p>
+                                
+                                <!-- Learn More Link -->
+                                                                                                        <a href="https://example.com" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors duration-200">
+                                        Learn More
+                                        <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                        </svg>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                                    <div class="feature-card bg-white rounded-xl p-6 shadow-lg border border-gray-200 hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
+                        <!-- Icon and Content Container -->
+                        <div class="flex items-start space-x-4">
+                            <!-- Icon -->
+                            <div class="flex-shrink-0">
+                                <div class="w-12 h-12 rounded-lg flex items-center justify-center shadow-sm" 
+                                     style="background-color: #3b82f6;">
+                                    <i class="fas fa-mobile-alt text-lg" 
+                                       style="color: #ffffff;"></i>
+                                </div>
+                            </div>
+                            
+                            <!-- Content -->
+                            <div class="flex-1 min-w-0">
+                                <!-- Title and Badge Container -->
+                                <div class="flex items-center flex-wrap gap-2 mb-3">
+                                    <h3 class="font-semibold text-gray-900 text-xl leading-tight">
+                                        Professional Service 3                                    </h3>
+                                                                    </div>
+                                
+                                                                
+                                <p class="text-gray-600 text-base leading-relaxed mb-4">
+                                    Expert team with years of experience                                </p>
+                                
+                                <!-- Learn More Link -->
+                                                                                                        <a href="https://example.com" 
+                                       target="_blank" 
+                                       rel="noopener noreferrer"
+                                       class="inline-flex items-center text-blue-600 hover:text-blue-700 text-sm font-medium transition-colors duration-200">
+                                        Learn More
+                                        <svg class="ml-1 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+                                        </svg>
+                                    </a>
+                                                            </div>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+    
+    <!-- SCOPED CSS -->
+    <style>
+        /* Feature card hover effects */
+        #features-section-68a3fc45d5784 .feature-card {
+            border: 1px solid rgba(229, 231, 235, 1); /* Solid gray-200 border */
+            transition: all 0.3s ease;
+        }
+        
+        #features-section-68a3fc45d5784 .feature-card:hover {
+            border-color: rgba(59, 130, 246, 0.2); /* Blue border on hover */
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+        
+        /* Gradient animation for gradient backgrounds */
+            </style>
+    
+    </div>    </main>
+
+    <!-- SEO Debug Information (only shows when ?debug_seo=1 and admin is logged in) -->
+    
+    <!-- Cache Debug Information (only shows when ?cache_debug=1 and admin is logged in) -->
+    
+    <!-- License Debug Information -->
+    
+    <!-- Dynamic Footer with Clean URLs -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">
+                        
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 justify-center items-start">
+                <!-- Company Info Column -->
+                <div class="pr-2">
+                    <a href="http://localhost/cmsfortestpwreset/" class="inline-block hover:opacity-90 transition-opacity duration-200">
+                                                    <!-- Fallback to text logo -->
+                            <h3 class="text-xl font-bold mb-2">Your Website CMS</h3>
+                                            </a>
+                    <p class="text-gray-400 leading-relaxed">Creating amazing digital experiences for businesses worldwide. We build modern, responsive websites that drive results.</p>
+                    
+                                        <div class="mt-4">
+                        <h5 class="text-sm font-semibold mb-2 text-gray-300">Business Hours</h5>
+                        <p class="text-gray-400 text-sm whitespace-pre-line">Mon-Fri: 9:00 AM - 5:00 PM
+Sat: 10:00 AM - 3:00 PM
+Sun: Closed</p>
+                    </div>
+                                    </div>
+                
+                <!-- Quick Links Columns (Dynamic based on page count) -->
+                                <div class="px-2">
+                    <h4 class="text-lg font-semibold mb-4">
+                        Quick Links                    </h4>
+                    <ul class="space-y-2">
+                                                    <li>
+                                <a href="http://localhost/cmsfortestpwreset/" 
+                                   class="text-gray-400 hover:text-white transition duration-200 inline-flex items-center">
+                                    <i class="fas fa-chevron-right text-xs mr-2 opacity-50"></i>
+                                    Home                                </a>
+                            </li>
+                                                    <li>
+                                <a href="http://localhost/cmsfortestpwreset/about-us" 
+                                   class="text-gray-400 hover:text-white transition duration-200 inline-flex items-center">
+                                    <i class="fas fa-chevron-right text-xs mr-2 opacity-50"></i>
+                                    About Us                                </a>
+                            </li>
+                                                    <li>
+                                <a href="http://localhost/cmsfortestpwreset/services" 
+                                   class="text-gray-400 hover:text-white transition duration-200 inline-flex items-center">
+                                    <i class="fas fa-chevron-right text-xs mr-2 opacity-50"></i>
+                                    Services                                </a>
+                            </li>
+                                                    <li>
+                                <a href="http://localhost/cmsfortestpwreset/contact-us" 
+                                   class="text-gray-400 hover:text-white transition duration-200 inline-flex items-center">
+                                    <i class="fas fa-chevron-right text-xs mr-2 opacity-50"></i>
+                                    Contact Us                                </a>
+                            </li>
+                                                    <li>
+                                <a href="http://localhost/cmsfortestpwreset/testing" 
+                                   class="text-gray-400 hover:text-white transition duration-200 inline-flex items-center">
+                                    <i class="fas fa-chevron-right text-xs mr-2 opacity-50"></i>
+                                    testing                                </a>
+                            </li>
+                                            </ul>
+                </div>
+                                
+                <!-- Contact Info Column -->
+                <div class="pl-2">
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-3">
+                        <p class="text-gray-400 flex items-center">
+                            <i class="fas fa-envelope mr-3 text-blue-400"></i>
+                            <a href="mailto:ssudesh10@gmail.com" class="hover:text-white transition duration-200">ssudesh10@gmail.com</a>
+                        </p>
+                        <p class="text-gray-400 flex items-center">
+                            <i class="fas fa-phone mr-3 text-blue-400"></i>
+                            <a href="tel:" class="hover:text-white transition duration-200"></a>
+                        </p>
+                                                <p class="text-gray-400 flex items-start">
+                            <i class="fas fa-map-marker-alt mr-3 text-blue-400 mt-1"></i>
+                            <span class="whitespace-pre-line">123 Business St, City, State</span>
+                        </p>
+                                            </div>
+                    
+                    <!-- Dynamic Social Media Links -->
+                                    </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">
+                    &copy; 2025 Your Website CMS. All rights reserved. 
+                    <!-- |  <a href="#" class="hover:text-white transition duration-200">Privacy Policy</a> | 
+                    <a href="#" class="hover:text-white transition duration-200">Terms of Service</a> -->
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for mobile menu and interactions -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Cache status logging (for debugging)
+                        console.log('✅ Page caching is ENABLED');
+            console.log('📄 Current page: cmsfortestpwreset');
+            console.log('🕒 Generated at: 2025-08-19 06:23:33');
+            console.log('⏰ Cache expiry: 3600 seconds');
+                        
+            // Only initialize navigation JavaScript if navbar exists
+            const mobileMenuButton = document.getElementById('mobile-menu-button');
+            const mobileMenu = document.getElementById('mobile-menu');
+            const menuIcon = document.getElementById('menu-icon');
+            const body = document.body;
+            let isMenuOpen = false;
+
+            // Check if navigation elements exist (they won't if license is restricted)
+            if (mobileMenuButton && mobileMenu && menuIcon) {
+                function closeMobileMenu() {
+                    if (!isMenuOpen) return;
+                    
+                    mobileMenu.classList.add('hidden');
+                    menuIcon.className = 'fas fa-bars text-xl';
+                    body.classList.remove('menu-open');
+                    isMenuOpen = false;
+                    body.style.overflow = 'auto';
+                }
+
+                function openMobileMenu() {
+                    if (isMenuOpen) return;
+                    
+                    mobileMenu.classList.remove('hidden');
+                    menuIcon.className = 'fas fa-times text-xl';
+                    body.classList.add('menu-open');
+                    isMenuOpen = true;
+                    body.style.overflow = 'hidden';
+                }
+
+                function toggleMobileMenu() {
+                    if (isMenuOpen) {
+                        closeMobileMenu();
+                    } else {
+                        openMobileMenu();
+                    }
+                }
+
+                mobileMenuButton.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    e.preventDefault();
+                    toggleMobileMenu();
+                });
+
+                const mobileLinks = mobileMenu.querySelectorAll('a');
+                mobileLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        setTimeout(closeMobileMenu, 100);
+                    });
+                });
+
+                document.addEventListener('click', function(event) {
+                    if (isMenuOpen && 
+                        !mobileMenu.contains(event.target) && 
+                        !mobileMenuButton.contains(event.target)) {
+                        closeMobileMenu();
+                    }
+                });
+
+                window.addEventListener('resize', function() {
+                    if (window.innerWidth >= 1024 && isMenuOpen) {
+                        closeMobileMenu();
+                    }
+                });
+
+                document.addEventListener('keydown', function(event) {
+                    if (event.key === 'Escape' && isMenuOpen) {
+                        closeMobileMenu();
+                    }
+                });
+
+                mobileMenu.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                });
+            }
+
+            // Desktop dropdown functionality (only if dropdown exists)
+            const dropdown = document.querySelector('.dropdown');
+            const dropdownMenu = document.querySelector('.dropdown-menu');
+            
+            if (dropdown && dropdownMenu) {
+                document.addEventListener('click', function(event) {
+                    if (!dropdown.contains(event.target)) {
+                        dropdownMenu.style.opacity = '0';
+                        dropdownMenu.style.visibility = 'hidden';
+                        dropdownMenu.style.transform = 'translateY(-10px)';
+                    }
+                });
+
+                dropdown.addEventListener('keydown', function(event) {
+                    if (event.key === 'Enter' || event.key === ' ') {
+                        event.preventDefault();
+                        const isVisible = dropdownMenu.style.visibility === 'visible';
+                        
+                        if (isVisible) {
+                            dropdownMenu.style.opacity = '0';
+                            dropdownMenu.style.visibility = 'hidden';
+                            dropdownMenu.style.transform = 'translateY(-10px)';
+                        } else {
+                            dropdownMenu.style.opacity = '1';
+                            dropdownMenu.style.visibility = 'visible';
+                            dropdownMenu.style.transform = 'translateY(0)';
+                        }
+                    }
+                });
+            }
+        });
+
+        // Smooth scrolling for anchor links (works regardless of license status)
+        document.addEventListener('DOMContentLoaded', function() {
+            const anchorLinks = document.querySelectorAll('a[href^="#"]');
+            
+            anchorLinks.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href === '#') return;
+                    
+                    const target = document.querySelector(href);
+                    if (target) {
+                        e.preventDefault();
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+        });
+
+        // Page load handlers
+        window.addEventListener('load', function() {
+            const loadingElements = document.querySelectorAll('.loading');
+            loadingElements.forEach(el => el.style.display = 'none');
+            
+            const mainContent = document.querySelector('main');
+            if (mainContent) {
+                mainContent.style.opacity = '1';
+            }
+        });
+
+        // Enhanced Analytics for Homepage
+        document.addEventListener('DOMContentLoaded', function() {
+            if (typeof gtag !== 'undefined') {
+                // Track homepage view with enhanced data
+                gtag('event', 'page_view', {
+                    page_title: 'Your Website - Professional Business Solutions',
+                    page_location: 'http://localhost/cmsfortestpwreset/',
+                    custom_parameter_page_type: 'homepage'
+                });
+            }
+        });
+
+        // Force scroll to top on page load/refresh
+        window.addEventListener('beforeunload', function() {
+            // Store that we're about to refresh/navigate
+            sessionStorage.setItem('scrollToTop', 'true');
+        });
+
+        // Immediately scroll to top when page starts loading
+        if (sessionStorage.getItem('scrollToTop') === 'true') {
+            // Remove the flag
+            sessionStorage.removeItem('scrollToTop');
+            
+            // Force scroll to top immediately
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        }
+
+        // Also force scroll to top on page load
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        });
+
+        // Alternative method - disable scroll restoration
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        // License Banner dismiss functionality (optional)
+        document.addEventListener('DOMContentLoaded', function() {
+            const licenseBanner = document.querySelector('.license-banner');
+            if (licenseBanner) {
+                // Add click to dismiss functionality (optional)
+                licenseBanner.style.cursor = 'pointer';
+                licenseBanner.title = 'Click to dismiss temporarily';
+                
+                licenseBanner.addEventListener('click', function() {
+                    this.style.transform = 'translateY(-100%)';
+                    setTimeout(() => {
+                        this.style.display = 'none';
+                        document.body.classList.remove('has-license-banner');
+                        document.body.classList.remove('navbar-hidden');
+                    }, 300);
+                });
+            }
+        });
+
+    </script>
+</body>
+</html>
+

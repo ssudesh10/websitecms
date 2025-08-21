@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cache Test Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .status {
+            padding: 15px;
+            border-radius: 6px;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .cache-enabled {
+            background: #d4edda;
+            color: #155724;
+            border: 2px solid #28a745;
+        }
+        .cache-disabled {
+            background: #f8d7da;
+            color: #721c24;
+            border: 2px solid #dc3545;
+        }
+        .test-data {
+            background: #e7f3ff;
+            border: 1px solid #b8daff;
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            font-family: monospace;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px 5px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #0056b3;
+        }
+        .btn-refresh {
+            background: #28a745;
+        }
+        .btn-refresh:hover {
+            background: #1e7e34;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Cache Test Page</h1>
+        
+        <div class="status cache-enabled">
+            Cache Status: ✅ ENABLED        </div>
+        
+        <div class="test-data">
+            <h3>📊 Test Data (Changes Each Refresh When Cache Disabled)</h3>
+            <p><strong>Generated Time:</strong> 2025-08-19 06:23:03</p>
+            <p><strong>Random Number:</strong> 9199</p>
+            <p><strong>Cache Expiry:</strong> 3600 seconds</p>
+            <p><strong>PHP Process ID:</strong> 27996</p>
+        </div>
+        
+        <div>
+            <h3>🧪 How to Test Caching:</h3>
+            <ol>
+                <li><strong>Enable Cache:</strong> Go to admin and enable caching</li>
+                <li><strong>First Visit:</strong> Note the "Generated Time" and "Random Number" above</li>
+                <li><strong>Refresh Page:</strong> If caching works, the time and number should stay the same</li>
+                <li><strong>Wait for Expiry:</strong> After 3600 seconds, they should change</li>
+                <li><strong>Clear Cache:</strong> Or manually clear cache to see fresh data immediately</li>
+            </ol>
+        </div>
+        
+        <div style="margin: 30px 0; text-align: center;">
+            <a href="/cmsfortestpwreset/test_cache.php" class="btn btn-refresh">🔄 Refresh Page</a>
+            <a href="/cmsfortestpwreset/test_cache.php?t=1755577383" class="btn">⚡ Force Fresh Load</a>
+            <a href="http://localhost/cmsfortestpwreset/admin/" class="btn">⚙️ Admin Panel</a>
+            <a href="http://localhost/cmsfortestpwreset/" class="btn">🏠 Homepage</a>
+        </div>
+        
+                <div style="background: #fff3cd; border: 1px solid #ffeaa7; padding: 15px; border-radius: 4px; margin: 20px 0;">
+            <h4>✅ Cache is Enabled - Testing Instructions:</h4>
+            <ul>
+                <li>📝 Note the current "Generated Time" and "Random Number"</li>
+                <li>🔄 Click "Refresh Page" - they should stay the same (cache hit)</li>
+                <li>⚡ Click "Force Fresh Load" - they should change (cache bypass)</li>
+                <li>⏰ Wait 3600 seconds and refresh - they should change (cache expired)</li>
+            </ul>
+        </div>
+                
+        <div style="background: #f8f9fa; border: 1px solid #dee2e6; padding: 15px; border-radius: 4px; margin: 20px 0; font-size: 12px; color: #6c757d;">
+            <strong>Debug Info:</strong><br>
+            Cache Directory: C:\xampp\htdocs\cmsfortestpwreset/cache/<br>
+            Cache Key: ebbcccfb3791291349fab418f04a70b4.cache<br>
+            Current Time: 2025-08-19 06:23:03<br>
+            Cache Setting: cache_enabled = 1<br>
+            Cache Expiry: cache_expiry = 3600        </div>
+    </div>
+</body>
+</html>
+

@@ -1,0 +1,68 @@
+Your Website - Professional Business Solutions',
+                    page_location: 'http://localhost/cmsfortestpwreset/',
+                    custom_parameter_page_type: 'homepage'
+                });
+            }
+        });
+
+        // Force scroll to top on page load/refresh
+        window.addEventListener('beforeunload', function() {
+            // Store that we're about to refresh/navigate
+            sessionStorage.setItem('scrollToTop', 'true');
+        });
+
+        // Immediately scroll to top when page starts loading
+        if (sessionStorage.getItem('scrollToTop') === 'true') {
+            // Remove the flag
+            sessionStorage.removeItem('scrollToTop');
+            
+            // Force scroll to top immediately
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        }
+
+        // Also force scroll to top on page load
+        window.addEventListener('load', function() {
+            window.scrollTo(0, 0);
+            document.documentElement.scrollTop = 0;
+            document.body.scrollTop = 0;
+        });
+
+        // Alternative method - disable scroll restoration
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
+
+        // License Banner dismiss functionality (optional)
+        document.addEventListener('DOMContentLoaded', function() {
+            const licenseBanner = document.querySelector('.license-banner');
+            if (licenseBanner) {
+                // Add click to dismiss functionality (optional)
+                licenseBanner.style.cursor = 'pointer';
+                licenseBanner.title = 'Click to dismiss temporarily';
+                
+                licenseBanner.addEventListener('click', function() {
+                    this.style.transform = 'translateY(-100%)';
+                    setTimeout(() => {
+                        this.style.display = 'none';
+                        document.body.classList.remove('has-license-banner');
+                        document.body.classList.remove('navbar-hidden');
+                    }, 300);
+                });
+            }
+        });
+
+                document.addEventListener('DOMContentLoaded', function() {
+            // Cache status logging (for debugging)
+                        console.log('✅ Page caching is ENABLED');
+            console.log('📄 Current page: cmsfortestpwreset');
+            console.log('🕒 Generated at: 2025-08-19 05:33:28');
+                        
+            // Your existing JavaScript code continues...
+        });
+
+    </script>
+</body>
+</html>
+
